@@ -9,7 +9,7 @@ function Navbar() {
     <div className="bg-gray-800 text-white">
       <nav className="px-6 py-4 flex flex-col md:flex-row md:items-center md:justify-between">
         
-        {/* Logo & Toggle */}
+        
         <div className="flex items-center justify-between">
           <div className="w-20">
             <img src={logo} alt="Logo" className="w-full" />
@@ -23,7 +23,7 @@ function Navbar() {
           </button>
         </div>
 
-        {/* Navigation Links */}
+        
         <ul
           className={`flex flex-col md:flex-row gap-4 mt-4 md:mt-0 transition-all duration-300 ${
             menuOpen ? 'block' : 'hidden'

@@ -9,7 +9,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // You can replace this with actual email sending logic
+    
     alert(`Message sent by ${form.name}`);
     setForm({ name: "", email: "", message: "" });
   };
